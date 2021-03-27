@@ -38,3 +38,4 @@ if myAlgorithm.log is not None and NDSet.sizes != 0:
     Metrics = np.array([myAlgorithm.log[metricName[i][0]] for i in range(len(metricName))]).T
     # 绘制指标追踪分析图
     ea.trcplot(Metrics, labels=metricName, titles=metricName)
+# test
